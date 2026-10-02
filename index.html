@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table , th , td {
+            border-collapse: collapse;
+            border: 1px solid black;
+            text-align: center;
+        }
+        table{
+            border: 3px solid darkblue;
+        }
+        tr:hover{
+            background-color: rgb(35, 112, 235);
+        }
+        th{
+            background-color:blue ;
+            color: white;
+        }
+        .box{
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Table</h1>
+            <table>
+                <tr>
+                    <th>SR No.</th>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Per Unit Price</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Lays</td>
+                    <td>5</td>
+                    <td>20</td>
+                    <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Uncle Chips</td>
+                <td>8</td>
+                <td>10</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amul butter</td>
+                <td>5</td>
+                <td>16</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Choco Chips</td>
+                <td>5</td>
+                <td>30</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Maggi</td>
+                <td>8</td>
+                <td>50</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Dairy Milk</td>
+                <td>5</td>
+                <td>80</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Kit Kat</td>
+                <td>4</td>
+                <td>50</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Bourbon</td>
+                <td>9</td>
+                <td>60</td>
+                <td>540</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Balaji Chips </td>
+                <td>10</td>
+                <td>10</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Kinder Joy</td>
+                <td>12</td>
+                <td>50</td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <th colspan="4">Total</th>
+                <th>2650</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
